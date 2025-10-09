@@ -13,7 +13,7 @@ function handleFormSubmit(event) {
     .then((response) => displayUserOnScreen(response.data))
     .catch((error) => console.log(error));
 
-  // Clearing the input fields
+
   document.getElementById("username").value = "";
   document.getElementById("email").value = "";
   document.getElementById("phone").value = "";
