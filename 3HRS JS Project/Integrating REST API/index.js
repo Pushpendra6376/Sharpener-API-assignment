@@ -96,3 +96,5 @@ searchInput.addEventListener("input", (event) => {
 function updateTotalCount() {
     totalCount.textContent = passwordList.getElementsByTagName("li").length;
 }
+
+
