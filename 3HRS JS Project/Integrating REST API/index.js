@@ -86,7 +86,7 @@ function displayPasswordOnScreen(item) {
   });
 }
 
-// Search functionality
+
 searchInput.addEventListener("input", (event) => {
   const query = event.target.value.toLowerCase();
   const allItems = passwordList.getElementsByTagName("li");
